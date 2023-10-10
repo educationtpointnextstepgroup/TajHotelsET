@@ -1,0 +1,78 @@
+.richtext-font p {
+    font-family: Calibri;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .padding_class {
+        padding: 0 1rem;
+        display: block;
+    }
+}
+
+.mr-color-desc {
+    color: var(--primaryColor);
+}
+
+.mr-card-desc {
+    font-family: Calibri;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.mr-card-details {
+    display: flex;
+    justify-content: center;
+}
+
+.mr-card-details .mr-tic-details {
+    padding: 0 0.8125rem;
+    margin: 0.75rem 0 1rem;
+    position: relative;
+}
+
+.mr-card-details .mr-tic-details:last-child {
+    border-right: none;
+}
+
+.mr-card-details .mr-tic-details .mr-detail-count {
+    font-family: Calibri;
+    font-size: 1.6875rem;
+    font-weight: bold;
+    color: #d29851;
+    line-height: 1;
+}
+
+.mr-card-details .mr-tic-details .mr-detail-desc {
+    font-family: Calibri;
+    font-size: 0.7875rem;
+    font-weight: bold;
+    color: #d29851;
+}
+
+.mr-tic-details::after {
+    content: '';
+    width: 1px;
+    height: 70%;
+    margin: auto;
+    background-color: #979797;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.mr-tic-details-last::after {
+    position: initial;
+}
+
+.richtext-font ul {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.richtext-font li {
+    list-style: inside !important;
+}

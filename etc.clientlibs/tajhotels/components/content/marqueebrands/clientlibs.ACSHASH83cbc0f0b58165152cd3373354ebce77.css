@@ -1,0 +1,141 @@
+.marqueebrands {
+    margin-top: 50px;
+}
+
+.cont-us-details-container {
+    display: none;
+}
+
+.card-img-top {
+    filter: brightness(0.4);
+    cursor: pointer;
+    object-position: bottom;
+}
+
+.marqueebrands .brand-icon {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 100px !important;
+    object-fit: contain;
+}
+
+.mr-contact-us-wrap {
+    position: relative;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    box-shadow: none;
+}
+
+.mr-contact-us-wrap .cont-us-image-cont {
+    height: 500px !important;
+    overflow: hidden;
+}
+
+.cont-us-details-container {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: white;
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+.mr-contact-us-wrap.active .cont-us-details-container {
+    max-height: 60%;
+    min-height: 60%;
+    transition: max-height 0.5s ease-in;
+}
+
+.mr-contact-us-wrap.active img {
+    height: 40%;
+    transition: max-height 0.5s ease-out;
+}
+
+.mr-contact-us-wrap.active .card-img-top {
+    filter: none;
+}
+
+.mr-contact-us-wrap.active .brand-icon {
+    display: none;
+}
+
+.card-img-top:hover {
+    filter: brightness(0.6);
+}
+
+.marqueebrands .icon-carousel-arrow-coloured-right:before {
+    color: white !important;
+    content: "NEXT→";
+    font-size: 11px;
+    font-family: 'CALIBRI';
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.marqueebrands .icon-carousel-arrow-coloured-left:before {
+    color: white !important;
+    content: "←PREV";
+    font-size: 11px;
+    font-family: 'CALIBRI';
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.marqueebrands .rightArrow {
+    right: -6%;
+    bottom: 50%;
+}
+
+.marqueebrands .leftArrow {
+    left: -6%;
+    bottom: 50%;
+}
+
+.cm-header-label-con .cm-header-label {
+    color: #4a4949;
+}
+
+.marquee-inner-logo {
+    height: 70px;
+    object-fit: contain;
+}
+
+.marqueebrands .cont-us-contact-wrap {
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 430px) {
+    .mr-contact-us-wrap.active .cont-us-details-container {
+        max-height: 63%;
+        min-height: 63%;
+    }
+}
+
+.marqueebrands .card-img-top {
+    cursor: inherit !important;
+}
+
+.title-data-details-marqueebrand {
+    text-align: left !important;
+    border-left: 1px solid #4a4949;
+    padding: 10px;
+}
+
+.cm-page-container.taj.home-page-layout .marqueebrands .rightArrow {
+    right: -6%;
+    bottom: 63%;
+}
+
+.cm-page-container.taj.home-page-layout .marqueebrands .leftArrow {
+    left: -6%;
+    bottom: 63%;
+}
+
+cont-us-phone-number p {
+    color: #787777;
+}

@@ -1,0 +1,801 @@
+.neu-pass-benfit-content {
+    background-color: #1A0032;
+    display: flex;
+    font-size: 12px;
+    height: 125px; //color:white;
+    font-family: Roboto;
+    font-style: Bold;
+}
+
+.neu-pass-benfit-content .vertical-line {
+    border: 1px solid white;
+    margin: 0.5% 0px;
+}
+
+.neu-pass-benfit-content li {
+    line-height: 18px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    list-style: unset;
+    color: white; //c
+}
+
+.neu-pass-benfit-content .active-inactive-cont {
+    font-size: 14px;
+    position: relative;
+    background: #FF9600;
+    border-radius: 16px;
+    font-family: calibri;
+    padding: 6px 10px;
+    bottom: 12px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: white; //c
+}
+
+.neu-pass-benfit-content .neupass-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.neu-pass-benfit-content .image-parent-container {
+    width: 100%;
+}
+
+.neu-pass-benfit-content .neupass-image {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .neu-pass-benfit-content .benfits-list {
+        display: none !important;
+    }
+    .neu-pass-benfit-content .benfits-desktop {
+        display: flex !important;
+        padding: 8px;
+        width: 100%;
+        gap: 14%;
+    }
+}
+
+.neu-pass-benfit-content .benfits-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 1px;
+}
+
+.neu-pass-benfit-content .benfits-desktop {
+    display: none;
+    gap: 0px;
+}
+
+.neu-pass-benfit-content .benfits {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.neu-pass-benfit-content .benfits-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.neu-pass-benfit-content .sub-title {
+    font-family: calibri;
+    font-size: 14px;
+    margin-top: 15px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+
+.neu-pass-benfit-content .a-tag-styles-cancelllation {
+    text-decoration: none;
+    color: white;
+}
+
+.neupass-strip-wrapper {
+    display: block;
+}
+
+.neupass-benfits {
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    z-index: 5;
+}
+
+.cm-page-container .content-wrapper-neupass {
+    margin: 150px auto 81px;
+}
+
+@media only screen and (max-width: 480px) {
+    .neu-pass-benfit-content .benfits {
+        padding: 22px 0px;
+        display: inline-block;
+    }
+    .neu-pass-benfit-content .neupass-logo {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 1%;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+    }
+    .neu-pass-benfit-content .active-inactive-cont {
+        font-size: 12px;
+        position: relative;
+        background: #FF9600;
+        border-radius: 16px;
+        font-family: calibri;
+        padding: 6px 10px;
+        bottom: 12px;
+        margin-top: 10px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        width: max-content;
+        cursor: pointer;
+    }
+    .neu-pass-benfit-content .neupass-image {
+        width: auto;
+    }
+    .neu-pass-benfit-content li {
+        line-height: 18px;
+        font-size: 10px;
+        letter-spacing: 0.6px;
+        list-style: unset;
+    }
+    .neu-pass-benfit-content .vertical-line {
+        border: 1px solid white;
+        margin: 20px 0px;
+    }
+    .neu-pass-benfit-content .a-tag-styles-cancelllation {
+        text-decoration: none;
+        color: white;
+        width: auto;
+    }
+    .neu-pass-benfit-content {
+        height: 105px;
+    }
+    .cm-page-container .content-wrapper-neupass {
+        margin: 200px auto 58px;
+        max-width: 100%;
+    }
+    .neupass-benfits {
+        position: absolute;
+        width: 100%;
+        margin-top: 15%;
+        z-index: 5;
+    }
+    .tic.cm-page-container .neupass-benfits {
+        margin-top: 0;
+    }
+}
+
+/*TODO : To revisit once teh guest journey is complete */
+
+.neupass-strip-wrapper {
+    display: none;
+}
+
+.ama-theme .neupass-benfits {
+    margin-top: -10px;
+}
+
+.ama-theme.cm-page-container .content-wrapper-neupass {
+    margin: 150px auto 81px !important;
+}
+
+.guest @media only screen and (max-width: 2100px) {
+    .neu-pass-benfit-content .benfits-list {
+        display: none !important;
+    }
+    .neu-pass-benfit-content .benfits-desktop {
+        display: flex !important;
+        padding: 8px;
+        width: 100vw;
+        gap: 0%;
+    }
+    .neu-pass-benfit-content .benfits-list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 24px;
+        margin-top: 1px;
+    }
+    .neu-pass-benfit-content .benfits-desktop {
+        display: none;
+    }
+    .neu-pass-benfit-content .benfits {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .neu-pass-benfit-content .benfits-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .neu-pass-benfit-content .sub-title {
+        font-family: calibri;
+        margin-top: 15px;
+        letter-spacing: 0.2px;
+    }
+    .neu-pass-benfit-content .a-tag-styles-cancelllation {
+        text-decoration: none;
+        color: white;
+        width: 7rem;
+    }
+    .neu-pass-benfit-content .active-inactive-cont {
+        font-size: 14px;
+        position: relative;
+        background: #FF9600;
+        border-radius: 16px;
+        font-family: calibri;
+        padding: 6px 10px;
+        bottom: 12px;
+        margin-top: 10px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .neu-pass-benfit-content .neupass-logo {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4%;
+        justify-content: center;
+        align-items: center;
+    }
+    .neu-pass-benfit-content .neupass-image {
+        width: 10rem;
+    }
+    .neu-pass-benfit-content .benfits-desktop {
+        display: flex !important;
+        padding: 8px;
+        width: 100%;
+        gap: 0%;
+    }
+    .neupass-strip-wrapper {
+        display: block;
+    }
+    .neupass-benfits {
+        position: absolute;
+        width: 100vw;
+        margin-top: 0;
+        z-index: 5;
+    }
+    .cm-page-container .content-wrapper-neupass {
+        margin: 150px auto 81px;
+    }
+}
+
+.about-carousel-images {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .neu-pass-benfit-content .active-inactive-cont {
+        font-size: 18px;
+        position: relative;
+        background: #FF9600;
+        border-radius: 16px;
+        font-family: calibri;
+        padding: 6px 5px;
+        bottom: 12px;
+        margin-top: 10px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .neu-pass-benfit-content .a-tag-styles-cancelllation {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .benfits-item-img {
+        height: 45px;
+        object-fit: contain;
+    }
+}
+
+.ama-theme .neupass-benfits {
+    z-index: 0;
+}
+
+.active-inactive-cont {
+    padding: 0 10px !important;
+}
+
+/*Prashant*/
+
+/*@media only screen and (min-width: 600px) {
+   .neupass-benfits.has-guest-user .neupass-banner {
+       width: 100%;
+       cursor: pointer;
+   }
+   .cm-page-container .banner-container .search-container{
+       bottom: 29%;
+   }
+   .neupass-benfits.has-guest-user {
+       position: initial;
+       margin-top: 0 !important;
+   }
+   .neupass-benfits.has-guest-user .neu-pass-benfit-content.guest-wrapper {
+       height: auto;
+   }
+   .neupass-benfits.has-guest-user .neupass-mobile-banner {
+       display: none !important;
+   }
+   .content-wrapper-neupass.has-guest-user {
+       margin-top: 30px !important;
+   }
+   .neupass-banner-content {
+      display: none !important;
+   }
+}
+
+/*@media only screen and (max-width: 599px) {
+   .neupass-benfits.has-guest-user .neupass-banner {
+       display: none;
+   }
+   /*.neupass-banner-content {
+      display: block;
+   }
+   .neupass-benfits.has-guest-user .neupass-mobile-banner {
+      display: block;
+      width: 100%;
+      cursor: pointer;
+      height: fit-content;
+   }
+   .content-wrapper-neupass.has-guest-user {
+       margin-top: 55% !important;
+   }
+}
+   @media only screen and (min-width: 481px) and (max-width: 599px) {
+   .content-wrapper-neupass.has-guest-user {
+       margin-top: 40% !important;
+    }
+}*/
+
+/*neupass guest new banner*/
+
+.neu-pass-benfit-content.guest-wrapper {
+    min-height: 125px;
+    height: auto;
+}
+
+.neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile {
+    display: none;
+}
+
+.neu-pass-benfit-content.guest-wrapper .guest-wrapper-desktop {
+    display: flex;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height: 125px;
+    height: auto;
+}
+
+.neu-pass-benfit-content.guest-wrapper .image-parent-container {
+    width: 29%;
+    display: flex;
+    align-items: center;
+    /*padding: 0 2%;*/
+    padding: 0 6%;
+}
+
+.neu-pass-benfit-content.guest-wrapper .benfits.neupass-banner-content {
+    width: 42%;
+    padding: 0;
+}
+
+.neu-pass-benfit-content.guest-wrapper .benfits-desktop {
+    gap: 4%;
+    padding: 0;
+}
+
+.neu-pass-benfit-content.guest-wrapper .benfits-item .sub-title {
+    font-size: 1vw;
+    margin-top: 0px;
+}
+
+.neu-pass-benfit-content.guest-wrapper .neupass-logo.neupass-banner-content {
+    width: 29%;
+    justify-content: space-evenly;
+    padding: 20px 7% 20px 6%;
+}
+
+.neu-pass-benfit-content.guest-wrapper .neupass-logo.neupass-banner-content>div {
+    color: white;
+    width: 100%;
+    font-size: 1.8vw;
+    font-family: calibri;
+}
+
+.neu-pass-benfit-content.guest-wrapper .neupass-logo.neupass-banner-content a.a-tag-styles-cancelllation {
+    margin-right: 0;
+    width: 100%;
+}
+
+.neu-pass-benfit-content.guest-wrapper .neupass-logo.neupass-banner-content .btn.active-inactive-cont {
+    border-radius: 5px;
+    width: 100%;
+    background: var(--lighterLinearGradient);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    letter-spacing: initial;
+    bottom: auto;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .neu-pass-benfit-content.guest-wrapper .image-parent-container {
+        width: 26%;
+        /*padding: 0 1%;*/
+        padding: 0 2%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .benfits.neupass-banner-content {
+        width: 49%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .benfits-desktop {
+        gap: 2%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .benfits-desktop .benfits-item .benfits-item-img {
+        width: auto;
+        height: 40px;
+    }
+    .neu-pass-benfit-content.guest-wrapper .benfits-item .sub-title {
+        font-size: 1.4vw;
+        letter-spacing: -0.1px;
+    }
+    .neu-pass-benfit-content.guest-wrapper .neupass-logo.neupass-banner-content {
+        width: 25%;
+        padding: 20px 4% 20px 4%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .neupass-logo.neupass-banner-content .btn.active-inactive-cont {
+        font-size: 1.4vw;
+        height: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .cm-page-container .content-wrapper-neupass.has-guest-user {
+        margin-top: 185px;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-desktop {
+        display: none;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile {
+        display: flex;
+        height: auto;
+        min-height: 160px;
+        align-items: center;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .logo-button-section {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5% 5% 5% 12%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .image-parent-container {
+        width: 100%;
+        padding: 0;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .neupass-logo.neupass-banner-content {
+        width: 100%;
+        padding: 0;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .neupass-logo.neupass-banner-content .btn.active-inactive-cont {
+        width: auto;
+        height: 28px !important;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits.neupass-banner-content {
+        width: 55%;
+        padding-right: 6%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits.neupass-banner-content .benfits-desktop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits.neupass-banner-content .benfits-desktop .benfits-item {
+        padding: 2%;
+        width: 48%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits-desktop .benfits-item .benfits-item-img {
+        width: auto;
+        /*height: 40px;*/
+        height: 30px;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits-item .sub-title {
+        /*font-size: 12px;*/
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cm-page-container .content-wrapper-neupass.has-guest-user {
+        margin-top: 250px;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .logo-button-section {
+        /*padding: 8% 2% 9% 8%;*/
+        padding: 6% 2% 7% 8%;
+        width: 40%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits.neupass-banner-content {
+        width: 60%;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits.neupass-banner-content .benfits-desktop .benfits-item {
+        padding: 0;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .benfits-item .sub-title,
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .neupass-logo.neupass-banner-content .btn.active-inactive-cont {
+        /*font-size: 3vw;*/
+        font-size: 9.5px;
+    }
+    .neu-pass-benfit-content.guest-wrapper .guest-wrapper-mobile .neupass-logo.neupass-banner-content .btn.active-inactive-cont {
+        font-size: 3vw;
+    }
+}
+
+.neu-pass-benfit-content .modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0 !important;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5.43656px);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+.neu-pass-benfit-content .modal-content {
+    display: none;
+    background-color: #FFFBF5;
+    width: 361px;
+    /*height: 293px;
+        /*dn*/
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#second-modal .top-nav {
+    margin-top: 15%;
+    /*dn*/
+}
+
+.neu-pass-benfit-content .modal-header p {
+    line-height: 30.5px;
+}
+
+.neu-pass-benfit-content .modal-active {
+    width: 100%;
+    height: 70px;
+    background-color: #190032;
+    /*dn*/
+    border-radius: 0px 0px 25px 25px;
+    font-size: 29px;
+    line-height: 34px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Calibri';
+}
+
+.neu-pass-benfit-content .modal-header {
+    width: 261px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin: 44px auto 0px auto;
+    border-bottom: none;
+    font-family: 'Calibri-bold';
+}
+
+.neu-pass-benfit-content .offers {
+    width: 271px;
+    height: 23px;
+    font-size: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 8px 45px;
+    line-height: 50px;
+    /*new one by dn */
+    padding-left: 32px;
+    font-family: 'Calibri';
+}
+
+.neu-pass-benfit-content .redem-offers {
+    width: 80px;
+    height: 29px;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    margin: 11px 0px 0px -8px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-family: 'Calibri';
+}
+
+.neu-pass-benfit-content .main-redeem-offer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 17px;
+    /*new one by dn */
+}
+
+.neu-pass-benfit-content .single-div {
+    width: 100px;
+    height: 100px;
+}
+
+.neu-pass-benfit-content .offer-logo {
+    /* padding-left: 20px;
+     width: 52px;
+     height: 52px;
+     margin-bottom: 10px;
+     */
+    margin: 9px 0px 0px 7px;
+}
+
+.neu-pass-benfit-content .box-content {
+    border-radius: 15px;
+    width: 140px;
+    height: 55px;
+    background-color: #F8EFFF;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.neu-pass-benfit-content .main-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 24px;
+    margin-bottom: 48px;
+    margin-top: 28px;
+}
+
+.neu-pass-benfit-content .box-span {
+    width: 61px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-family: 'Calibri';
+}
+
+.neu-pass-benfit-content .bottom {
+    width: 336px;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 35px;
+    margin-left: 18px;
+    font-family: 'Calibri';
+}
+
+.neu-pass-benfit-content .modal-cancel {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    background-color: #C4C4C4;
+    border-radius: 16px;
+    width: 18px;
+}
+
+.neu-pass-benfit-content .price-strike {
+    font-size: 20px;
+}
+
+.neu-pass-benfit-content .top-nav {
+    display: flex;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    text-align: center;
+}
+
+.neu-pass-benfit-content .modal-sure {
+    margin-left: 22%;
+    width: 187px;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #1B1B1B;
+    font-family: 'Calibri-bold';
+}
+
+#modal-sure-text {
+    width: 319px;
+    margin-left: 8%;
+    height: 60px;
+    margin-top: 55px;
+    /*dn*/
+    margin-bottom: revert;
+    /*dn*/
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'Calibri';
+}
+
+.neu-pass-benfit-content .botton-description {
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding: 0px 25px;
+    margin-top: 2px;
+    font-family: 'Calibri';
+    margin: 0px 0px 25px 0px;
+}
+
+.neu-pass-benfit-content .modal-congo {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.neu-pass-benfit-content .modal-text {
+    width: 285.27px;
+    height: 95.73px;
+    font-family: 'Calibri';
+    font-size: 19px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin: 10px 13px 10px 30px;
+}
+
+.pop-up-modal-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-image {
+    background: #F2E0FF;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.modal-cancel-img {
+    margin: 0px 0px 0px 4px;
+}
